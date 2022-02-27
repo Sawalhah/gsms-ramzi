@@ -1157,15 +1157,15 @@ Banner Area CSS
 }
 
 .home-sliders .home-item.item-bg1 {
-  background-image: url(../../assets/img/home-one/slider-bg.jpg);
+  background-image: url(../../assets/img/home-one/slider-bg.png);
 }
 
 .home-sliders .home-item.item-bg2 {
-  background-image: url(../../assets/img/home-one/slider-bg-2.jpg);
+  background-image: url(../../assets/img/home-one/slider-bg-2.png);
 }
 
 .home-sliders .home-item.item-bg3 {
-  background-image: url(../../assets/img/home-one/slider-bg-3.jpg);
+  background-image: url(../../assets/img/home-one/slider-bg-3.png);
 }
 
 .home-sliders .home-item .main-banner-content {
@@ -1421,7 +1421,7 @@ Creative Area CSS
 }
 
 .creative-image {
-  background-image: url(../../assets/img/about/about.jpg);
+  background-image: url(../../assets/img/about/about-2.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4566,7 +4566,7 @@ About Area CSS
 }
 
 .about-image {
-  background-image: url(../../assets/img/about/about-2.jpg);
+  background-image: url(../../assets/img/about/about-2.png);
   background-size: cover;
   background-position: center center;
   height: 100%;
