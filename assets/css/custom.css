@@ -46,12 +46,12 @@ body{margin-top:20px;}
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #3b82f6
+    background-color: #4CAACA
 }
 
 .timeline-steps .timeline-content .inner-circle:before {
     content: "";
-    background-color: #3b82f6;
+    background-color: #71ADDA;
     display: inline-block;
     height: 3rem;
     width: 3rem;
