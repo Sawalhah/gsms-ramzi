@@ -27,10 +27,7 @@
         <!-- Responsive CSS -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
 
-		<link rel="stylesheet" href="assets/css/products.css">
-		<link rel="stylesheet" href="assets/css/aos.css">
-		<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
+		<link rel="stylesheet" href="assets/css/products/style.css">
 		<title>GSMS - innovating the future in medical services</title>
 
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
@@ -70,7 +67,7 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: block;">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="#" class="nav-link active">
+                                <a href="#" class="nav-link">
                                     Home
                                 </a>
                             </li>
@@ -81,7 +78,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="products.html" class="nav-link">
+                                <a href="products.html" class="nav-link active">
                                     Products
                                 </a>
 
@@ -114,279 +111,337 @@
         </div>
     </div>
     <!-- End Navbar Area -->
- <!-- Start Page Title Area -->
- <div class="page-title-area" style="background-image: url(assets/img/contact-us.png);">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <div class="container">
-                <div class="page-title-content">
-                    <h2>Products</h2>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li>Products</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Page Title Area -->
-     <!-- ======= Works Section ======= -->
-     <div class="container  pt-70 ">
-     <section class="section site-portfolio">
-        <div class="container">
-          <div class="row mb-5 align-items-center">
-            <div class="col-md-4 col-lg-4 mb-4 mb-lg-0" data-aos="fade-up">
-              <h2>Products</h2>
-            </div>
-            <div class="col-md-8 col-lg-8 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
-              <div id="filters" class="filters">
-                <a href="#" data-filter="*" class="active">All</a>
-                <a href="#" data-filter=".dental">DENTAL PRODUCTS</a>
-                <a href="#" data-filter=".derma">DERMA PRODUCTS</a>
-                <a href="#" data-filter=".diabetes">DIABETES</a>
-                <a href="#" data-filter=".hospital">HOSPITAL INFORMATICS</a>
-                <a href="#" data-filter=".radiology">RADIOLOGY</a>
-              </div>
-            </div>
-          </div>
-          <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-            <div class="item dental col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="single-product.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Owandy I-Max Touch Series</h3>
-                  <span>Dental Products, Digital X-ray</span>
-                </div>
-                <img class="img-fluid" src="assets/img/products/owand_I-MaxTouch11.jpg">
-              </a>
-            </div>
-            <div class="item dental col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="#" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Owandy Rx</h3>
-                  <span>Dental Products, Digital X-ray</span>
-                </div>
-                <img class="img-fluid" src="assets/img/products/owand_Rx1.jpg">
-              </a>
-            </div>
-            <div class="item derma col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="#" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Jeisys EdgeOne</h3>
-                  <span>Derma Products</span>
-                </div>
-                <img class="img-fluid" src="assets/img/products/edgeone.jpg">
-              </a>
-            </div>
-            <div class="item diabetes col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="#" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Dexcom G4 Platinum</h3>
-                  <span>Diabetes</span>
-                </div>
-                <img class="img-fluid" src="assets/img/products/Dexcom1.jpg">
-              </a>
-            </div>
-            <div class="item hospital col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="#" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>microcare HIS</h3>
-                  <span>Hospital Informatics</span>
-                </div>
-                <img class="img-fluid" src="assets/img/products/microcare.png">
-              </a>
-            </div>
-            <div class="item radiology col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="#" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Ulrich Inject – CT Motion</h3>
-                  <span>Radiology</span>
-                </div>
-                <img class="img-fluid" src="assets/img/products/ulrich.jpg">
-              </a>
-            </div>
-          </div>
-        </div>
-      </section><!-- End  Works Section -->
-
-    </div>
-                <!-- Start Footer Area -->
-                <section class="footer-section pt-100 pb-70">
+     <!-- Start Page Title Area -->
+        <div class="page-title-area" style="background-image: url(assets/img/contact-us.png);">
+            <div class="d-table">
+                <div class="d-table-cell">
                     <div class="container">
-
-
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="single-footer-widget">
-                                    <div class="footer-heading">
-                                        <h3>About GSMS</h3>
-                                    </div>
-                                    <p>We work with medical professionals all around the region to provide them with the latest technologies in their field
-                                        Get in touch with us to learn more about what we can do for you
-                                        </p>
-                                    <ul class="footer-social">
-                                        <li>
-                                            <a href="#">
-                                                <i class="flaticon-facebook"></i>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">
-                                                <i class="flaticon-twitter"></i>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">
-                                                <i class="flaticon-pinterest"></i>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">
-                                                <i class="flaticon-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="single-footer-widget">
-                                    <div class="footer-heading">
-                                        <h3>Important Links</h3>
-                                    </div>
-
-                                    <ul class="footer-quick-links">
-                                        <li>
-                                            <a href="about.html">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="projects-1.html">Project</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="single-footer-widget">
-                                    <div class="footer-heading">
-                                        <h3>Our Offices</h3>
-                                    </div>
-                                    <ul class="footer-quick-links">
-                                        <li>
-                                            <a href="#">Riyadh Offices</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Jeddah Offices</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Dammam Offices</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="single-footer-widget">
-                                    <div class="footer-heading">
-                                        <h3>Contact</h3>
-                                    </div>
-
-                                    <div class="footer-info-contact">
-                                        <i class="flaticon-phone-call"></i>
-                                        <h3>Phone</h3>
-                                        <span><a href="tel:+966920012595">+966 92001 2595</a></span>
-                                    </div>
-
-                                    <div class="footer-info-contact">
-                                        <i class="flaticon-envelope"></i>
-                                        <h3>Email</h3>
-                                        <span><a href="mailto:info@gs-ms.com">info@gs-ms.com</a></span>
-                                    </div>
-
-                                    <div class="footer-info-contact">
-                                        <i class="flaticon-pin"></i>
-                                        <h3>Address</h3>
-                                        <span>King Abdullah Road, AlReways Area, Al-Deraies Tower, 3rd floor
-
-                                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- End Footer Area -->
-
-        <!-- Start Copy Right Area -->
-        <div class="copyright-area">
-            <div class="container">
-                <div class="copyright-area-content">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-6">
-                            <p>
-                                Copyright © 2022 GSMS All Rights Reserved by
-                            </p>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
+                        <div class="page-title-content">
+                            <h2>Products</h2>
                             <ul>
-                                <li>
-                                    <a href="#">Terms & Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy Policy</a>
-                                </li>
+                                <li><a href="index.html">Home</a></li>
+                                <li>Products</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Copy Right Area -->
+        <!-- End Page Title Area -->
 
-        <!-- Start Go Top Section -->
-        <div class="go-top">
-            <i class="bx bx-chevron-up"></i>
-            <i class="bx bx-chevron-up"></i>
+        <header class="site-navbar site-navbar-target" role="banner">
+
+            <div class="container">
+              <div class="row align-items-center position-relative">
+
+                <div class="col-3">
+                  <div class="site-logo">
+                    <a href="products_2.html" class="font-weight-bold">Products</a>
+                  </div>
+                </div>
+                <div class="col-9  text-right">
+                  <span class="d-inline-block d-lg-none"><a href="#" class="text-primary site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-white"></span></a></span>
+                  <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                    <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                      <li class="active"><a href="#dental_implants" class="nav-link">Dental Implants</a></li>
+                      <li><a href="#prosthetics" class="nav-link">Prosthetics</a></li>
+                      <li><a href="#guided_surgery" class="nav-link">Guided surgery</a></li>
+                      <li><a href="#biologics" class="nav-link">Biologics</a></li>
+                      <li><a href="#instruments" class="nav-link">Instruments</a></li>
+                      <li><a href="#teethxpress" class="nav-link">TeethXpress</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <section id="dental_implants" class="bg-light pt-100">
+            <div class="container px-4 pb-4 pt-100 pb-70">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <img src="assets/img/products/products-implant-family.png">
+                    </div>
+                    <div class="col-lg-8">
+                        <h2 >dental implants</h2>
+                        <p class="lead">
+                            Dental implants are clinically proven through some of the most thorough and in-depth research in the industry. We offer ten comprehensive implant lines, covering virtually every surgical and prosthetic indication or clinician preference. Our dental implants have a 99% average implant success rate1-10 and also come with a lifetime warranty, giving you peace of mind.
+                        </p>
+                        <div>
+                            <a href="dental-implants/dental-implants.html" class="default-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <section class="bg-lighter pt-100" id="prosthetics">
+            <div class="container px-4 pb-4 pt-100 pb-70">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>prosthetics</h2>
+                        <p class="lead">
+                            Our broad range of prosthetics cover a wide range of indications and patient conditions and feature some of the tightest machine tolerances in the dental industry. Our unique conical connection creates a biologic seal, eliminating the microgap seen with other systems. Through advanced Spiralock© technology, abutment screws remain tight over time.
+                        </p>
+                        <div>
+                            <a href="single-product.html" class="default-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="assets/img/products/Custom-hybrid-titanium-abutments.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+          <section class="bg-light pt-100" id="guided_surgery">
+            <div class="container px-4 pb-4 pt-100 pb-70">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <img src="assets/img/products/products-guided-surgery.png">
+                    </div>
+                    <div class="col-lg-8">
+                        <h2>guided surgery</h2>
+                        <p class="lead">
+                            Guided surgery system offers a flexible workflow by incorporating an open design, allowing the clinician to choose their preferred guide manufacturer or treatment planning software. The guided surgery kit leads to increased communication within the implant treatment planning team and increased predictability for your patients.
+                        </p>
+                        <div>
+                            <a href="single-product.html" class="default-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <section class="bg-lighter pt-100" id="biologics">
+            <div class="container px-4 pb-4 pt-100 pb-70">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Biologics</h2>
+                        <p class="lead">
+                            Recognized as a global leader for hard and soft tissue solutions, We offer a comprehensive biologics portfolio upon which you and your practice can build a solid foundation. Our broad family of regenerative products are scientifically proven in a wide variety of grafting applications and formulated for consistent, quality performance.
+                        </p>
+                        <div>
+                            <a href="single-product.html" class="default-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="assets/img/products/Custom-hybrid-titanium-abutments.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+          <section class="bg-light pt-100" id="instruments">
+            <div class="container px-4 pb-4 pt-100 pb-70">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <img src="assets/img/products/instruments-intro.png">
+                    </div>
+                    <div class="col-lg-8">
+                        <h2>Instruments</h2>
+                        <p class="lead">
+                            We offer a comprehensive line of high quality dental instruments for tissue regeneration and implant placement. GSMS dental instruments are developed in concert with key opinion leaders to guarantee they are innovative, technically advanced and will lead to predictable patient outcomes.
+                        </p>
+                        <div>
+                            <a href="single-product.html" class="default-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <section class="bg-lighter pt-100" id="teethxpress">
+            <div class="container px-4 pb-4 pt-100 pb-70">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>TeethXpress</h2>
+                        <p class="lead">
+                            TeethXpress is a biomechanically stable, immediate-load and function protocol for fully or partially edentulous patients. BioHorizons Tapered implants with Laser-Lok technology provide superior primary stability for immediate load. The TeethXpress technique creates a stable and predictable immediate load solution that will make your patients smile.
+                        </p>
+                        <div>
+                            <a href="single-product.html" class="default-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="assets/img/products/products-teethxpress-right.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ <!-- Start Footer Area -->
+ <section class="footer-section pt-100 pb-70">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <div class="footer-heading">
+                        <h3>About GSMS</h3>
+                    </div>
+                    <p>We work with medical professionals all around the region to provide them with the latest technologies in their field
+                        Get in touch with us to learn more about what we can do for you
+                        </p>
+                    <ul class="footer-social">
+                        <li>
+                            <a href="#">
+                                <i class="flaticon-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="flaticon-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="flaticon-pinterest"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="flaticon-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <div class="footer-heading">
+                        <h3>Important Links</h3>
+                    </div>
+
+                    <ul class="footer-quick-links">
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="projects-1.html">Project</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <div class="footer-heading">
+                        <h3>Our Offices</h3>
+                    </div>
+                    <ul class="footer-quick-links">
+                        <li>
+                            <a href="#">Riyadh Offices</a>
+                        </li>
+                        <li>
+                            <a href="#">Jeddah Offices</a>
+                        </li>
+                        <li>
+                            <a href="#">Dammam Offices</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <div class="footer-heading">
+                        <h3>Contact</h3>
+                    </div>
+
+                    <div class="footer-info-contact">
+                        <i class="flaticon-phone-call"></i>
+                        <h3>Phone</h3>
+                        <span><a href="tel:+966920012595">+966 92001 2595</a></span>
+                    </div>
+
+                    <div class="footer-info-contact">
+                        <i class="flaticon-envelope"></i>
+                        <h3>Email</h3>
+                        <span><a href="mailto:info@gs-ms.com">info@gs-ms.com</a></span>
+                    </div>
+
+                    <div class="footer-info-contact">
+                        <i class="flaticon-pin"></i>
+                        <h3>Address</h3>
+                        <span>King Abdullah Road, AlReways Area, Al-Deraies Tower, 3rd floor
+
+                            </span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- End Go Top Section -->
+    </div>
+</section>
+<!-- End Footer Area -->
 
-        <!-- Jquery Slim JS -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- Popper JS -->
-        <script src="assets/js/popper.min.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Meanmenu JS -->
-        <script src="assets/js/jquery.meanmenu.js"></script>
-        <!-- Owl Carousel JS -->
-		<script src="assets/js/owl.carousel.js"></script>
-        <!-- Magnific JS -->
-		<script src="assets/js/jquery.magnific-popup.min.js"></script>
-		<!-- Appear JS -->
-        <script src="assets/js/jquery.appear.min.js"></script>
-		<!-- Odometer JS -->
-		<script src="assets/js/odometer.min.js"></script>
-		<!-- Form Ajaxchimp JS -->
-		<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-		<!-- Form Validator JS -->
-		<script src="assets/js/form-validator.min.js"></script>
-		<!-- Contact JS -->
-        <script src="assets/js/contact-form-script.js"></script>
-        <!-- Wow JS -->
-        <script src="assets/js/wow.min.js"></script>
+<!-- Start Copy Right Area -->
+<div class="copyright-area">
+<div class="container">
+<div class="copyright-area-content">
+    <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6">
+            <p>
+                Copyright © 2022 GSMS All Rights Reserved by
+            </p>
+        </div>
 
-        <script src="assets/js/aos.js"></script>
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <!-- Custom JS -->
-        <script src="assets/js/main.js"></script>
-        <script src="assets/js/portfolio.js"></script>
-    </body>
+        <div class="col-lg-6 col-md-6">
+            <ul>
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- End Copy Right Area -->
+
+<!-- Start Go Top Section -->
+<div class="go-top">
+<i class="bx bx-chevron-up"></i>
+<i class="bx bx-chevron-up"></i>
+</div>
+<!-- End Go Top Section -->
+
+<!-- Jquery Slim JS -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Meanmenu JS -->
+<script src="assets/js/jquery.meanmenu.js"></script>
+<!-- Owl Carousel JS -->
+<script src="assets/js/owl.carousel.js"></script>
+<!-- Magnific JS -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Appear JS -->
+<script src="assets/js/jquery.appear.min.js"></script>
+<!-- Odometer JS -->
+<script src="assets/js/odometer.min.js"></script>
+<!-- Form Ajaxchimp JS -->
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<!-- Form Validator JS -->
+<script src="assets/js/form-validator.min.js"></script>
+<!-- Contact JS -->
+<script src="assets/js/contact-form-script.js"></script>
+<!-- Wow JS -->
+<script src="assets/js/wow.min.js"></script>
+
+<!-- Custom JS -->
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/products/jquery.sticky.js"></script>
+<script src="assets/js/products/main.js"></script>
+
+</body>
 </html>
