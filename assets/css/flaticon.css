@@ -19,7 +19,7 @@ Flaticon icon font: Flaticon
 	}
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
 	font-family: Flaticon;
 	font-style: normal;
 }
@@ -69,3 +69,4 @@ Flaticon icon font: Flaticon
 .flaticon-report:before { content: "\f129"; }
 .flaticon-data:before { content: "\f12a"; }
 .flaticon-tick:before { content: "\f12b"; }
+.flaticon-linkedin:before { content: "\E939"; }
